@@ -1,6 +1,7 @@
 ### Kerberos install  
-
+```
  yum install krb5-libs krb5-server -y
+ ```
  
 ``` [root@m2-maprts-vm57-173 ~]# cat /etc/krb5.conf
 [logging]
@@ -70,6 +71,7 @@ Authenticating as principal root/admin@EXAMPLE.COM with password.
   service krb5kdc start
 
 ```
+```
 [root@m2-maprts-vm57-173 ~]# kadmin.local
 Authenticating as principal root/admin@MIP.STORAGE.HPECORP.NET with password.
 kadmin.local:  listprincs
@@ -109,5 +111,5 @@ Valid starting       Expires              Service principal
 
 ```
  
- ```
+ 
  
