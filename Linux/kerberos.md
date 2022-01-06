@@ -1,4 +1,4 @@
-!!! Kerberos install  
+### Kerberos install  
 
  yum install krb5-libs krb5-server -y
  
@@ -35,7 +35,8 @@ MIP.STORAGE.HPECORP.NET = {
 
  ```
  
-```[root@m2-maprts-vm57-173 ~]# cat /var/kerberos/krb5kdc/kdc.conf
+```
+[root@m2-maprts-vm57-173 ~]# cat /var/kerberos/krb5kdc/kdc.conf
 [kdcdefaults]
  kdc_ports = 88
  kdc_tcp_ports = 88
