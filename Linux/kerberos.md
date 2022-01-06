@@ -112,4 +112,14 @@ Valid starting       Expires              Service principal
 ```
  
  
- 
+ ```
+ kadmin.local:   ktadd -k /etc/krb5.keytab nfs/m2-maprts-vm57-173.mip.storage.hpecorp.net@MIP.STORAGE.HPECORP.NET
+Entry for principal nfs/m2-maprts-vm57-173.mip.storage.hpecorp.net@MIP.STORAGE.HPECORP.NET with kvno 2, encryption type aes256-cts-hmac-sha1-96 added to keytab WRFILE:/etc/krb5.keytab.
+Entry for principal nfs/m2-maprts-vm57-173.mip.storage.hpecorp.net@MIP.STORAGE.HPECORP.NET with kvno 2, encryption type aes128-cts-hmac-sha1-96 added to keytab WRFILE:/etc/krb5.keytab.
+Entry for principal nfs/m2-maprts-vm57-173.mip.storage.hpecorp.net@MIP.STORAGE.HPECORP.NET with kvno 2, encryption type des3-cbc-sha1 added to keytab WRFILE:/etc/krb5.keytab.
+Entry for principal nfs/m2-maprts-vm57-173.mip.storage.hpecorp.net@MIP.STORAGE.HPECORP.NET with kvno 2, encryption type arcfour-hmac added to keytab WRFILE:/etc/krb5.keytab.
+Entry for principal nfs/m2-maprts-vm57-173.mip.storage.hpecorp.net@MIP.STORAGE.HPECORP.NET with kvno 2, encryption type camellia256-cts-cmac added to keytab WRFILE:/etc/krb5.keytab.
+Entry for principal nfs/m2-maprts-vm57-173.mip.storage.hpecorp.net@MIP.STORAGE.HPECORP.NET with kvno 2, encryption type camellia128-cts-cmac added to keytab WRFILE:/etc/krb5.keytab.
+Entry for principal nfs/m2-maprts-vm57-173.mip.storage.hpecorp.net@MIP.STORAGE.HPECORP.NET with kvno 2, encryption type des-hmac-sha1 added to keytab WRFILE:/etc/krb5.keytab.
+Entry for principal nfs/m2-maprts-vm57-173.mip.storage.hpecorp.net@MIP.STORAGE.HPECORP.NET with kvno 2, encryption type des-cbc-md5 added to keytab WRFILE:/etc/krb5.keytab.
+```
